@@ -7872,23 +7872,26 @@ let BattlePokedex = {
 		weightkg: 750,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["giratinaorigin"],
+		otherFormes: ["giratinaorigin""giratinamega"],
 	},
-	giratinaorigin: {
+	giratinamega: {
 		num: 487,
-		species: "Giratina-Origin",
+		species: "Giratina-Mega",
 		baseSpecies: "Giratina",
-		forme: "Origin",
+		forme: "Mega",
 		formeLetter: "O",
-		types: ["Ghost", "Dragon"],
+		types: ["Dark", "Dragon"],
 		gender: "N",
-		baseStats: {hp: 150, atk: 120, def: 100, spa: 120, spd: 100, spe: 90},
+		baseStats: {hp: 141, atk: 129, def: 130, spa: 120, spd: 140, spe: 120},
 		abilities: {0: "Levitate"},
 		heightm: 6.9,
 		weightkg: 650,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-	},
+	}
+	
+	
+	
 	cresselia: {
 		num: 488,
 		species: "Cresselia",
