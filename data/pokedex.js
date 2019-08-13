@@ -7836,7 +7836,20 @@ let BattlePokedex = {
 		weightkg: 336,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
+		otherFormes: ["palkiamega"],
 	},
+	palkiamega: {
+		num: 484,
+		species: "Palkia-Mega",
+		baseSpecies: "Palkia"
+		types: ["Water", "Dragon"],
+		gender: "N",
+		baseStats: {hp: 131, atk: 139, def: 140, spa: 120, spd: 130, spe: 120},
+		abilities: {0: "Pressure", 1: "Levitate" , H: "Telepathy"},
+		heightm: 4.2,
+		weightkg: 336,
+		color: "Purple",
+		eggGroups: ["Undiscovered"],
 	heatran: {
 		num: 485,
 		species: "Heatran",
