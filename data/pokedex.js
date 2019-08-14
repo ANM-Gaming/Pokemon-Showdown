@@ -7979,7 +7979,7 @@ let BattlePokedex = {
 		weightkg: 320,
 		color: "White",
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["arceusbug", "arceusdark", "arceusdragon", "arceuselectric", "arceusfairy", "arceusfighting", "arceusfire", "arceusflying", "arceusghost", "arceusgrass", "arceusground", "arceusice", "arceuspoison", "arceuspsychic", "arceusrock", "arceussteel", "arceuswater"],
+		otherFormes: ["arceusbug", "arceusdark", "arceusdragon", "arceuselectric", "arceusfairy", "arceusfighting", "arceusfire", "arceusflying", "arceusghost", "arceusgrass", "arceusground", "arceusice", "arceuspoison", "arceuspsychic", "arceusrock", "arceussteel", "arceuswater" "arceusmega"],
 	},
 	arceusbug: {
 		num: 493,
@@ -8236,6 +8236,19 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
+	arceusmega: {
+		num: 493,
+		species: "Arceus-Mega",
+		baseSpecies: "Arceus",
+		types: ["Normal", "Psychic"],
+		gender: "N",
+		baseStats: {hp: 150, atk: 170, def: 120, spa: 130, spd: 140, spe: 110},
+		abilities: {0: "Multitype"},
+		heightm: 3.2,
+		weightkg: 320,
+		color: "White",
+		eggGroups: ["Undiscovered"]
+		}.
 	victini: {
 		num: 494,
 		species: "Victini",
