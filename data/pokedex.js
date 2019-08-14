@@ -7824,7 +7824,21 @@ let BattlePokedex = {
 		weightkg: 683,
 		color: "White",
 		eggGroups: ["Undiscovered"],
+		otherFormes: ["dialgamega"],
 	},
+	dialgamega: {
+		num: 483,
+		species: "Dialga-Mega",
+		baseSpecies: "Dialga"
+		types: ["Steel", "Dragon"],
+		gender: "N",
+		baseStats: {hp: 121, atk: 149, def: 140, spa: 130, spd: 110, spe: 130},
+		abilities: {0: "Pressure", H: "Telepathy"},
+		heightm: 5.4,
+		weightkg: 683,
+		color: "White",
+		eggGroups: ["Undiscovered"],
+	}.
 	palkia: {
 		num: 484,
 		species: "Palkia",
