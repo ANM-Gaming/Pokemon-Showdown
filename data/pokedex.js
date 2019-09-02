@@ -7824,6 +7824,20 @@ let BattlePokedex = {
 		weightkg: 683,
 		color: "White",
 		eggGroups: ["Undiscovered"],
+		otherFormes: ["dialgamega"].
+	},
+	dialgamega: {
+		num: 483,
+		species: "Dialga-Mega",
+		baseSpecies: "Dialga"
+		types: ["Steel", "Dragon"],
+		gender: "N",
+		baseStats: {hp: 120, atk: 150, def: 140, spa: 130, spd: 110, spe: 130},
+		abilities: {0: "Pressure", H: "Telepathy"},
+		heightm: 5.4,
+		weightkg: 683,
+		color: "White",
+		eggGroups: ["Undiscovered"],
 	},
 	palkia: {
 		num: 484,
@@ -7835,8 +7849,22 @@ let BattlePokedex = {
 		heightm: 4.2,
 		weightkg: 336,
 		color: "Purple",
-		eggGroups: ["Undiscovered"],
+   	eggGroups: ["Undiscovered"]
+		otherFormes: ["palkiamega"].
 	},
+	palkiamega: {
+		num: 484,
+		species: "Palkia-Mega",
+		baseSpecies: "Palkia"
+		types: ["Water", "Dragon"],
+		gender: "N",
+		baseStats: {hp: 130, atk: 140, def: 140, spa: 120, spd: 130, spe: 120},
+		abilities: {0: "Pressure", 1: "Levitate" , H: "Telepathy"},
+		heightm: 4.2,
+		weightkg: 336,
+		color: "Purple",
+		eggGroups: ["Undiscovered"],
+	},					
 	heatran: {
 		num: 485,
 		species: "Heatran",
@@ -7872,7 +7900,7 @@ let BattlePokedex = {
 		weightkg: 750,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["giratinaorigin"],
+		otherFormes: ["giratinaorigin", "giratinamega"],
 	},
 	giratinaorigin: {
 		num: 487,
@@ -7888,7 +7916,22 @@ let BattlePokedex = {
 		weightkg: 650,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-	},
+     },
+	  giratinamega: {
+		num: 487,
+		species: "Giratina-Mega",
+		baseSpecies: "Giratina",
+		forme: "Mega",
+		formeLetter: "O",
+		types: ["Dark", "Dragon"],
+		gender: "N",
+		baseStats: {hp: 140, atk: 130, def: 130, spa: 120, spd: 140, spe: 120},
+		abilities: {0: "Levitate"},
+		heightm: 6.9,
+		weightkg: 650,
+		color: "Black",
+		eggGroups: ["Undiscovered"]
+  },			
 	cresselia: {
 		num: 488,
 		species: "Cresselia",
@@ -7979,7 +8022,7 @@ let BattlePokedex = {
 		weightkg: 320,
 		color: "White",
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["arceusbug", "arceusdark", "arceusdragon", "arceuselectric", "arceusfairy", "arceusfighting", "arceusfire", "arceusflying", "arceusghost", "arceusgrass", "arceusground", "arceusice", "arceuspoison", "arceuspsychic", "arceusrock", "arceussteel", "arceuswater"],
+		otherFormes: ["arceusbug", "arceusdark", "arceusdragon", "arceuselectric", "arceusfairy", "arceusfighting", "arceusfire", "arceusflying", "arceusghost", "arceusgrass", "arceusground", "arceusice", "arceuspoison", "arceuspsychic", "arceusrock", "arceussteel", "arceuswater", "arceusmega"].
 	},
 	arceusbug: {
 		num: 493,
@@ -8236,6 +8279,19 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
+   arceusmega: {
+		num: 493,
+		species: "Arceus-Mega",
+		baseSpecies: "Arceus",
+		types: ["Normal", "Psychic"],
+		gender: "N",
+		baseStats: {hp: 150, atk: 170, def: 120, spa: 130, spd: 140, spe: 110},
+		abilities: {0: "Multitype"},
+		heightm: 3.2,
+		weightkg: 320,
+		color: "White",
+		eggGroups: ["Undiscovered"]
+	},	
 	victini: {
 		num: 494,
 		species: "Victini",
